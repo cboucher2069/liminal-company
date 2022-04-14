@@ -565,6 +565,9 @@ pre code {
 .navtitle {
     width: 187px;
 }
+.greenlink {
+    color: #8EA391;
+}
 
 @media (min-width: 576px) {
   .container {
@@ -3127,14 +3130,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-link {
-  font-weight: 400;
-  color: #007bff;
-  text-decoration: none;
+    font-weight: 400;
+    color: #8EA391;
+    text-decoration: none;
 }
 
 .btn-link:hover {
-  color: #0056b3;
-  text-decoration: underline;
+    color: #8EA391;
+    text-decoration: underline;
 }
 
 .btn-link:focus, .btn-link.focus {
@@ -3143,8 +3146,8 @@ fieldset:disabled a.btn {
 }
 
 .btn-link:disabled, .btn-link.disabled {
-  color: #6c757d;
-  pointer-events: none;
+    color: #8EA391;
+    pointer-events: none;
 }
 
 .btn-lg, .btn-group-lg > .btn {
@@ -4353,6 +4356,7 @@ input[type="button"].btn-block {
     z-index: 10;
     width: 100%;
     background-position: 14% 48%;
+    margin-top: -17px;
 }
 
 .navbar .container,
